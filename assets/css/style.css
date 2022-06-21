@@ -1,0 +1,87 @@
+/* -------------------------------------------------------------------------- */
+
+
+/*                                sina mahboub                                */
+
+
+/* -------------------------------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #87ceeb;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background: rgb(30, 87, 153);
+    background: -moz-linear-gradient( top, rgba(30, 87, 153, 1) 0%, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    background: -webkit-linear-gradient( top, rgba(30, 87, 153, 1) 0%, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    background: linear-gradient( to bottom, rgba(30, 87, 153, 1) 0%, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                sina mahboub                                */
+
+
+/* -------------------------------------------------------------------------- */
+
+#weather {
+    font-size: 50px;
+    color: white;
+    background: linear-gradient(#36bcf1, #36bcf1) no-repeat right;
+    background-size: 0 100%;
+    transition: background-size 500ms;
+    padding: 5px;
+    margin: 5px;
+}
+
+#weather:hover {
+    background-size: 100% 100%;
+    background-position: left;
+}
+
+.location {
+    margin: 20px;
+    color: white;
+}
+
+.temperature {
+    color: white;
+    cursor: pointer;
+}
+
+.temperature span {
+    font-style: oblique;
+}
+
+.temperature-description {
+    margin: 20px;
+    color: white;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                sina mahboub                                */
+
+
+/* -------------------------------------------------------------------------- */
+
+;
